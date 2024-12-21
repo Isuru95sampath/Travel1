@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #fcfbfb;
+    color: #000000;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header nav {
+    display: flex;
+    gap: 75px;
+}
+
+.header nav a {
+    color: #080808;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+    font-weight: bold;
+}
+
+.header nav a:hover {
+    color: #f0a500;
+}
+
+.header .book-ticket {
+    background-color: #623636;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.header .book-ticket:hover {
+    background-color: #c17d00;
+}
+
+img{
+    height: 655px;
+    margin-left: 720px;
+    margin-top: -100px;
+
+}
+h1{
+    font-size: 110px;
+    margin-top: -500px;
+    padding: 0px 0 0 25px;
+}
+
+h3{
+    color: red;
+    margin-top: -50px;
+
+}
