@@ -1,81 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel Landing Page</title>
-    <link rel="stylesheet" href="Travel.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Destination</a></li>
-                <li><a href="#">Packages</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><button class="btn">Book Ticket</button></li>
-            </ul>
-        </nav>
-        <div class="hero">
-            <h1>Travel to the any corner of <span>the world.</span></h1>
-            <p>We can build the holidays of your dreams and make them unforgettable.</p>
-            <div class="search-bar">
-                <input type="text" placeholder="Destination">
-                <input type="date">
-                <input type="number" placeholder="How many people">
-                <button class="search-btn">Search</button>
+<html> 
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TRVL</title>
+        <link rel="stylesheet" href="Travel.css">
+    </head>
+    <body>
+
+        <header class="header">
+            <div class="logo">TRVL</div>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#about">About Us</a>
+                <a href="#destination">Destination</a>
+                <a href="#packages">Packages</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <button class="book-ticket">Book Ticket</button>
+        </header>
+
+        <h3>Best destination around the world</h3>
+
+        <img src="Group 7.png" alt="Travel Image">
+        <h1>Travel to the <br>any corner <br>of the world.</h1>
+        <h2>We can build the Holidays of your dreams and make them <br>unforgettable.</h2>
+
+        <div class="search-bar">
+            <input type="text" placeholder="Destination" value="Colombo">
+            <input type="date">
+            <input type="number" placeholder="How many people">
+            <button>Search</button>
+        </div>
+
+        <div class="top-destinations">
+            <h2>Explore Top Destinations</h2>
+        </div>
+
+        <div class="cards-container">
+            <div class="card">
+                <img src="images/Group 7.png" alt="Cancun, Mexico">
+                <div class="card-content">
+                    <h3>Cancun, Mexico</h3>
+                    <p>Rs.20000</p>
+                    <div class="stars">
+                        <span class="filled">&#9733;</span>
+                        <span class="filled">&#9733;</span>
+                        <span class="filled">&#9733;</span>
+                        <span class="filled">&#9733;</span>
+                        <span>&#9733;</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/ai-generated-8131428_640 1.png" alt="Siem Reap, Canada">
+                <div class="card-content">
+                    <h3>Siem Reap, Canada</h3>
+                    <p>Rs.25000</p>
+                    <div class="stars">
+                        <span class="filled">&#9733;</span>
+                        <span class="filled">&#9733;</span>
+                        <span class="filled">&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://via.placeholder.com/250x150" alt="Cancun, Mexico">
+                <div class="card-content">
+                    <h3>Cancun, Mexico</h3>
+                    <p>Rs.30000</p>
+                    <div class="stars">
+                        <span class="filled">&#9733;</span>
+                        <span class="filled">&#9733;</span>
+                        <span class="filled">&#9733;</span>
+                        <span class="filled">&#9733;</span>
+                        <span>&#9733;</span>
+                    </div>
+                </div>
             </div>
         </div>
-    </header>
 
-    <section class="top-destinations">
-        <h2>Explore Top Destinations</h2>
-        <div class="destination-card">
-            <img src="Rectangle 11.png" alt="Cancun, Mexico">
-            <p>Cancun, Mexico</p>
-            <p>Rs. 20000</p>
+        <div class="middle">
+            <h2>How we work</h2>
         </div>
-        <div class="destination-card">
-            <img src="Rectangle 12.png" alt="Siem Reap, Canada">
-            <p>Siem Reap, Canada</p>
-            <p>Rs. 25000</p>
-        </div>
-        <div class="destination-card">
-            <img src="Rectangle 13.png" alt="Siem Reap, Canada">
-            <p>Siem Reap, Canada</p>
-            <p>Rs. 25000</p>
-        </div>
-    </section>
 
-    <section class="services">
-        <h2>We Offer Best Services</h2>
-        <div class="service-item">
-            <h3>Location</h3>
-            <p>Explore stunning locations around the world.</p>
-        </div>
-        <div class="service-item">
-            <h3>Five Star Hotel</h3>
-            <p>Luxury services for a world-class experience.</p>
-        </div>
-        <div class="service-item">
-            <h3>Air Ticketing</h3>
-            <p>Book flights and hotels with competitive pricing.</p>
-        </div>
-    </section>
+        <section id="services">
+            <p>We offer Best Services</p>
 
-    <section class="clients">
-        <h2>What Our Clients Say About Us</h2>
-        <div class="testimonial">
-            <img src="client1.jpg" alt="Client">
-            <p>Alex Ferder, London, England</p>
-            <p>Traveling exposes you to new cultures, languages...</p>
-        </div>
-    </section>
+                <div class="location">
+                    <p>Location</p>
+                    <h2>Experience the stunning sunsets over the Aegean Sea. Santorini’s whitewashed buildings and crystal-clear waters make it a top romantic destination.</h2>
+                </div>
+        </section>
 
-    <footer>
-        <p>&copy; 2024 Travel Agency. All Rights Reserved.</p>
-    </footer>
-</body>
+    </body>
+
 </html>
